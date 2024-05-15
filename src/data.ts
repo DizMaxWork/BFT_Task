@@ -1,25 +1,32 @@
-export const countryOptions = [
-  { value: "", text: "Выберите страну" },
-  { value: "RF", text: "РФ" },
-  { value: "RB", text: "РБ" },
+export const country = [
+  { value: "Выберите страну", text: "Выберите страну" },
+  { value: "РФ", text: "РФ" },
+  { value: "РБ", text: "РБ" },
 ];
-export const cityOptions = [
+export const RussiaCity = [
   { value: "", text: "Выберите город" },
-  { value: "Moscow", text: "Москва" },
-  { value: "Sochi", text: "Сочи" },
-  { value: "Minsk", text: "Минск" },
-  { value: "Gomel", text: "Гомель" },
+  { value: "Москва", text: "Москва" },
+  { value: "Сочи", text: "Сочи" },
 ];
-
-export const universityOptions = [
-  { value: "", text: "Выберите вид ВУЗа" },
-  { value: "Tech", text: "Технический" },
-  { value: "Guman", text: "Гуманитарный" },
+export const BelorussiaCity = [
+  { value: "", text: "Выберите город" },
+  { value: "Минск", text: "Минск" },
+  { value: "Гомель", text: "Гомель" },
 ];
-export const housingOptions = [
+export const university = [
+  { value: "", text: "Выберите ВУЗ" },
+  { value: "Технический", text: "Технический" },
+  { value: "Гуманитарный", text: "Гуманитарный" },
+];
+export const RussiaHousing = [
   { value: "", text: "Выберите вариант проживания" },
-  { value: "dormitories", text: "Общежития" },
-  { value: "rent", text: "Аренда" },
-  { value: "notInterested", text: "Не интересует" },
-  { value: "mixed", text: "Общежития + Аренда" },
+  { value: "Общежития", text: "Общежития" },
+  { value: "Аренда", text: "Аренда" },
+  { value: "Не интересует", text: "Не интересует" },
+  { value: "Общежития + Аренда", text: "Общежития + Аренда" },
+];
+export const BelorussiaHousing = [
+  { value: "", text: "Выберите вариант проживания" },
+  { value: "Общежития", text: "Общежития" },
+  { value: "Не интересует", text: "Не интересует" },
 ];
